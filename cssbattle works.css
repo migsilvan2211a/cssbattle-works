@@ -1,0 +1,1939 @@
+CSSBattle codes
+/* Battle #5 */
+	<div></div>
+	<style>
+	  body {background:#0B2429}
+	  div, div:before, div:after {
+	    background:#998235;
+	    height: 120;
+	    width: 120;
+	    position: absolute;
+	    top: 90;
+	    left: 140;
+	    border-radius: 50% 0 50% 50%;
+	  }
+	  div:before, div:after{
+	    content: '';
+	    background:#F3AC3C;
+	    top: 50%;
+	    left:-50%;
+	  }
+	  div:after {
+	    top: -50%;
+	    left: 50%;
+	    z-index: -1;
+	    border-radius: 50%;
+	  }
+	</style>
+/* Battle #6 */
+	<div class="grid">
+	  <div class="a"></div>
+	  <div class="b"></div>
+	  <div class="c"></div>
+	</div>
+	<style>
+	  body {background:#E3516E}
+	  .grid {
+	    height: 200;
+	    width: 200;
+	    display: grid;
+	    border-radius: 50%;
+	    overflow: hidden;
+	    grid-template-columns: 50% 50%;
+	    grid-template-rows: 50% 50%;
+	    position: absolute;
+	    top: 50;
+	    left: 100;
+	  }
+	  .a {background: #51B5A9}
+	  .b {background: #FADE8B}
+	  .c {background: #F7F3D7}
+	</style>
+/* Battle #7 */
+	<div></div>
+	<style>
+	  body {background:#0B2429}
+	  div, div::before, div::after {
+	    height: 150;
+	    width: 150;
+	    border-radius: 67.5% 0 67.5% 0;
+	    position: absolute;
+	    top: 75;
+	    left: 125;
+	    background:#998235;
+	    content:''
+	  }
+	  div::before {
+	    background:#1A4341;
+	    top: 0;
+	    left: -50;
+	    z-index: -1
+	  }
+	  div::after {
+	    background:#F3AC3C;
+	    top: 0;
+	    left: 50
+	  }
+	</style>
+/* Battle #8 */
+	<div class="handle"></div>
+	<div class="base"></div>
+	<div class="grid">
+	  <div class="i1"></div>
+	  <div class="i2"></div>
+	  <div class="i1"></div>
+	  <div class="i2"></div>
+	  <div class="i1"></div>
+	  <div class="i2"></div>
+	  <div class="i1"></div>
+	</div>
+	<style>
+	  body {background: #6592CF;}
+	  *  {position: absolute; margin: 0; }
+	  body > * {background: #060F55}
+	  .handle {
+	    height: 80;
+	    width: 20;
+	    left: 190;  
+	    top: 230;
+	  }
+	  .base {
+	    height: 110;
+	    width: 140;
+	    top: 140;
+	    left: 130;
+	    border-radius: 0 0 90px 90px;
+	    z-index:2;
+	  }
+	  .grid {
+	    display: grid;
+	    grid-template-columns: repeat(7, 20px);
+	    grid-template-rows: 110px;
+	    width: 140;
+	    height: 110;
+	    top: 50;
+	    left: 130;
+	    background: #6592CF;
+	  }
+	  .i1, .i2 {
+	    border-radius: 20px 20px 0 0;
+	    background: #060F55;
+	    height: 110;
+	    width: 20;
+	    position: static;
+	  }
+	  .i2 {
+	    background:#6592CF;
+	    transform: rotateX(180deg);
+	    z-index: 2
+	  }
+	</style>
+/* Battle #9 */
+	<div class="s"></div>
+	<div class="c"></div>
+	<style>
+	  body{
+	    background: #222730  !important;
+	  }
+	  * {
+	    margin: 0;
+	    position: absolute;
+	  }
+	  body > * {
+	    background:#4CAAB3;
+	  }
+	  .s {
+	    height:150;
+	    top: 75;
+	    width: 400;
+	  }
+	  .c{
+	    height: 150;
+	    width: 150;
+	    top: 75;
+	    left: 125;
+	    rotate: 45deg;
+	    background: #4CAAB3;
+	    box-shadow: 0 0 0 50px #222730;
+	  }
+	  .c::after {
+	    content: '';
+	    height: 50;
+	    width: 50;
+	    background: #393E46;
+	    position: absolute;
+	    top: 50;
+	    left: 50;
+	    border-radius: 50%;
+	  }
+	</style>
+/* Battle #10 */
+	<div></div>
+	<div class="a"></div>
+	<div class="b"></div>
+	<style>
+	body{background:#62306d}*,::before{position:absolute;margin:0}div{height:60;width:60;left:70;top:170;background:#e38f66;border-radius:50%;outline:#AA445F solid 20px}div::before{content:'';width:100;height:200;background:#f7ec7d;top:30;left:-20;z-index:-1}.a{top:70;left:170;outline-color:#e38f66;background:#aa445f}.b{left:270}
+	</style>
+/* Battle #11 */
+	<div class="eye"></div>
+	<div class="side"></div>
+	<div class="side b"></div>
+	<style>
+	.eye,.eye::after,.side{outline:#ECA03D solid 20px}*,::after{position:absolute;margin:0;background:#191210;aspect-ratio:1/1;border-radius:50%;content:''}.eye,.eye::after{height:100;left:150;top:100}.eye::after{height:50;top:25;left:25;background:#84271c;outline:0}.side{height:60;top:120;left:70;z-index:-1}.side::after{height:50;width:100;left:-20;top:-20;border-radius:0}.b{left:270;rotate:180deg}
+	</style>
+/* Battle #12 */
+	<div class="m"></div>
+	<div class="dots"></div>
+	<style>
+	  * {
+	    background: #F5D6B4;
+	    position: absolute;
+	    margin: 0;
+	  }
+	  .m, .m::after, .m::before {
+	    height: 60;
+	    width: 60;
+	    border: 20px solid #D86F45;
+	    border-bottom-color: transparent;
+	    border-right-color: transparent;
+	    border-radius: 50%;
+	    rotate: 45deg;
+	    left: 150;
+	    top: 100;
+	  }
+
+	  .m::after{
+	    content: '';
+	    position: absolute;
+	    left: -77;
+	    rotate: -180deg;
+	    top: 36;
+	  }
+
+	  .m::before {
+	    content: '';
+	    position: absolute;
+	    left: 36;
+	    rotate: -180deg;
+	    top: -77;
+	  }
+	  .dots {
+	    height: 60;
+	    width: 160;
+	    top: 130;
+	    background: transparent;
+	  }
+
+	  .dots::before, .dots::after {
+	    height: 20px;
+	    width: 20px;
+	    content: '';
+	    position: absolute;
+	    top: 10;
+	    left: 70;
+	    background: #D86F45;
+	    border-radius: 50%;
+	  }
+	  .dots::after{
+	    left: 310;
+	  }
+	</style>
+/* Battle #13 */
+	<div></div>
+	<style>
+	  body {
+	    width: 400;
+	    height: 300;
+	    background: #0B2429;
+	  }
+	  div {
+	    position: absolute;
+	    border-left: 110px solid transparent;
+	    border-right: 110px solid transparent;
+	    border-bottom: 110px solid #F3AC3C;
+	    rotate: -45deg;
+	    top: -20;
+	    left: -80;
+	  }
+	</style>
+/* Battle #14 */
+	<div></div>
+	<div id="a"></div>
+	<style>
+	  * {margin: 0;}
+	  body {
+	    width: 400;
+	    height: 300;
+	    background: #F2F2B6;
+	  }
+	  div, div::after {
+	    border-top: 130px solid #FF6D00;
+	    border-left: 75px solid transparent;
+	    border-right: 75px solid transparent;
+	    position: absolute;
+	    left: 60;
+	    top: 85;
+	  }
+	  div::after {
+	    content: '';
+	    left: -55;
+	    top: -130;
+	    border-top: 130px solid #FD4602;
+	    position: absolute;
+	    z-index: -1
+	  }
+	  #a {
+	    left: 190;
+	    rotate: 180deg;
+	  }
+	</style>
+/* Battle #15 */
+	<div class="main">
+	  <div id="a"></div>
+	  <div id="b"></div>
+	</div>
+	<div class="main no-mix">
+	  <div id="c1"></div>
+	  <div id="c2"></div>
+	</div>
+	<style>
+	  *, ::after {
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	  }
+	  body {
+	    background: #09042A;
+	  }
+	  .main {
+	    left: 75;
+	    top: 75;
+	  }
+
+	  .no-mix {
+	    mix-blend-mode: darken;
+	    background: #09042A;
+	  }
+	  div {
+	    width: 150;
+	    height: 150;
+	    border-radius: 50%;
+	  }
+
+	  #a {
+	   background: #7B3F61;
+	  }
+	  #b, #c2 {
+	    background: #E78481;
+	    left: 100;
+	  }
+	  #c1, #c2 {
+	    background: white;
+	    mix-blend-mode: exclusion;
+	  
+	  }
+	  #c2 {
+	    background: white;
+	    
+	  }
+	</style>
+/* Battle #16 */
+	<div></div>
+	<style>
+	  * {
+	    position: absolute;
+	    margin: 0;
+	  }
+	  body {
+	    background: #0B2429;
+	  }
+	  div {
+	    background: #0B2429;
+	    height: 50;
+	    width: 50;
+	    top: 80;
+	    left: 130;
+	    border-radius: 50%;
+	    border: 45px solid #F3AC3C; 
+	    outline: 20px solid #0B2429;
+	    box-shadow: 0 0 0 30px #998235;
+	  }
+
+	  div::before, div::after {
+	    content: '';
+	    height: 100;
+	    width: 100;
+	    top: -25;
+	    left: -96;
+	    background: #998235;
+	    position: absolute;
+	    rotate: 45deg;
+	    z-index: -1
+	  }
+	  div::after {
+	    left: 46;
+	  }
+	</style>
+/* Battle #17 */
+	<div class="h"></div>
+	<div class="v"></div>
+	<style>
+	  *, ::before, ::after {
+	    position: absolute;
+	    margin: 0;
+	  }
+	  body {
+	    background: #09042A;
+	  }
+
+	  .h{
+	    background: #E78481;
+	    width: 120;
+	    height: 60;
+	    top: 120;
+	    left: 140
+	  }
+	  .h::before, .h::after, .v::before, .v::after {
+	    height: 60;
+	    width: 60;
+	    background: #09042A;
+	    left: -30;
+	    top: 0;
+	    content:'';
+	    border-radius: 50%;
+	    outline: 10px solid #E78481;
+	  }
+	  .h::after {
+	    left: 90
+	  }
+
+	  .v {
+	    top: 150;
+	    left: 200;
+	  }
+
+	  .v::before, .v::after {
+	    top:23;
+	    background: #F5BB9C;
+	    outline-color: #09042A;
+	  }
+	  .v::before {
+	    top: -83
+	  }
+	</style>
+/* Battle #18 */
+	<div id="g">
+	  <div class="row">
+	    <div class="i"></div>
+	    <div class="i"></div>
+	    <div class="i"></div>
+	    <div class="i"></div>
+	  </div>
+	  <div class="row">
+	    <div class="i"></div>
+	    <div class="i"></div>
+	    <div class="i"></div>
+	    <div class="i"></div>
+	  </div>
+	  <div class="row">
+	    <div class="i"></div>
+	    <div class="i"></div>
+	    <div class="i"></div>
+	    <div class="i"></div>
+	  </div>
+	</div>
+	<style>
+	  * {
+	    position: absolute;
+	  }
+	  body {
+	    background: #5C434C;
+	    margin: 10;
+	  }
+	  #g {
+	    display: grid;
+	    height: 300;
+	    width: 400;
+	    overflow:hidden; 
+	  }
+	  .row {
+	    display: grid;
+	    grid-template-columns: repeat(4, 1fr);
+	    position: relative;
+	  }
+	  .i {
+	    height: 80;
+	    width: 80;
+	    overflow: hidden;
+	    position: relative;
+	  }
+	  .i::after {
+	    content:'';
+	    background:#F09462;
+	    height: 160;
+	    width: 160;
+	    border-radius: 50%;
+	    top: 0;
+	    left: 0;
+	    position: absolute;
+	  }
+
+	  #g > div:nth-child(2n-1) > div:nth-child(2n)::after, 
+	  #g > div:nth-child(2) > div:nth-child(2n-1)::after{
+	    background: #F5D6B4;
+	  }
+	</style>
+/* Battle #19 */
+	<div></div>
+	<style>
+	  * {
+	    position: absolute;
+	    margin: 0;
+	  }
+	  body{
+	    background: #0B2429;
+	  }
+	  div, ::before, ::after {
+	    content:'';
+	    aspect-ratio: 1;
+	    height: 100px;
+	    background: #F3AC3C;
+	    rotate: 45deg;
+	    top: 135;
+	    left: 150;
+	  }
+	  div::before, div::after {
+	    height: 70;
+	    top: -60;
+	    left: -10;
+	    rotate: 135deg;
+	    transform: skew(0deg, 45deg);
+	    position: absolute;
+	    background: #1A4341;
+	  }
+	  div::after {
+	    top:-10;
+	    left: -60;
+	    rotate: 135deg;
+	    transform: skew(0deg, -45deg);
+	    background: #998235;
+	  }
+	</style>
+/* Battle #20 */
+	<div class="a"></div>
+	<div class="b"></div>
+	<style>
+	  * {
+	    position: absolute;
+	    margin: 0;
+	  }
+	  body {
+	    background: #62306D;
+	  }
+	  .a, .b {
+	    height: 100;
+	    top: 100;
+	  }
+	  .a {
+	    width: 140;
+	    background: #F7EC7D;
+	    left: 100;
+	  }
+	  .a::after{
+	    content: '';
+	    height: 40;
+	    width: 40;
+	    background: #62306D;
+	    position: absolute;
+	    top: -20;
+	    left: -20;
+	    box-shadow: 0px 100px 0 0px #62306D, 
+	      200px 100px 0 0px #62306D,
+	      200px 0px 0 0px #62306D,
+	      140px 0px 0 -10px #62306D,
+	      140px 100px 0 -10px #62306D;
+	    border-radius: 50%;
+	    z-index: 3;
+	  }
+	  .b {
+	    width: 60;
+	    background: #E38F66;
+	    left: 240;
+	  }
+	</style>
+/* Battle #21 */
+	<div class="a"></div>
+	<div class="a b"></div>
+	<style>
+	  *{position: absolute; margin: 0;}
+	  body {background: #222;}
+	  .a {
+	    width: 30;
+	    height: 100;
+	    rotate: 45deg;
+	    top: 58;
+	    left: 155;
+	    border-radius: 0 0 0 10px;
+	    background: #F2994A;
+	  }
+	  .a::after, .a::before {
+	    width: 29px;
+	    height: 60;
+	    content: '';
+	    position: absolute;
+	    top: 56;
+	    left: 34;
+	    rotate: 90deg;
+	    background: #F2994A;
+	    border-radius: 5px 0 0 0;
+	    transform: translate(-1px, -1px)
+	  }
+	  .a::before {
+	    width: 15;
+	    height: 60px;
+	    top: 48;
+	    left: 41;
+	  }
+	  .b {
+	    rotate: 225deg;
+	    top: 141;
+	    left: 214;
+	  }
+	  .b, .b::before, .b::after {
+	    background: #2D9CDB;
+	  }
+	</style>
+/* Battle #22 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#F5D6B4;}
+	  div{
+	    height: 100;
+	    width: 100;
+	    top: 115;
+	    left: 100;
+	    border-radius: 50%;
+	    background: #D86F45;
+	    box-shadow: 80px -30px 0 0px #D86F45;
+	  }
+	  div::after {
+	    height: 50;
+	    width: 180;
+	    content: '';
+	    top: 50;
+	    left: 20;
+	    background: #D86F45;
+	    border-radius: 50px;
+	  }
+	</style>
+/* Battle #23 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#F3AC3C;}
+	  div, div::before, div::after {
+	    aspect-ratio: 1;
+	    top: 50;
+	    left: 100;
+	    content: '';
+	  }
+	  div{
+	    background: #1A4341;
+	    height: 200;
+	  }
+	  div::after{
+	    background: #998235;
+	    height: 100;
+	    top: 100;
+	    left: 0;
+	  }
+	  div::before {
+	    background: #F3AC3C;
+	    height: 50;
+	    top: 150;
+	    left: 50;
+	    z-index: 1;
+	    
+	  }
+	</style>
+/* Battle #24 */
+	<div></div>
+	<div class="b"></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#62306D;}
+	  div, div::before, div::after {
+	    aspect-ratio: 1;
+	    top: 100;
+	    left: 80;
+	    content: '';
+	  }
+	  div{
+	    background: #F7EC7D;
+	    height: 100;
+	    border-radius: 50%;
+	  }
+	  div::after {
+	    background: #AA445F;
+	    height: 100;
+	    left: 0;
+	    top: -50;
+	    border-radius: 50%;
+	    z-index: -1
+	  }
+	  div::before {
+	    background: #AA445F;
+	    height: 50;
+	    width: 100;
+	    top: 0;
+	    left: 0;
+	    z-index: -1;
+	  }
+	  .b {
+	    left: 220;
+	  }
+	  .b::before, .b::after{
+	    background: #E38F66;
+	    top: 50;
+	  }
+	  
+
+	</style>
+/* Battle #25 */
+	<div></div>
+	<div class="b"></div>
+
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#998235;}
+	  div, div::before {
+	    height: 100;
+	    width: 80;
+	    top: 60;
+	    left: 110;
+	    content: '';
+	    border-radius: 0 50px ;
+	    background: #1A4341;
+	  }
+	  div::before {
+	    top: 80;
+	    left: 100;
+	    transform: ScaleY(-1);
+	  }
+	  .b, .b::before {
+	    transform: scaleX(-1);
+	    background: #F3AC3C;
+	    left: 210;
+	    height: 60;
+	  }
+	  .b::before{
+	    left: 100;
+	    top: 120;
+	  }
+	</style>
+/* Battle #26 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#6592CF;}
+	  div {
+	    height:80;
+	    width: 80;
+	    top: 60;
+	    left: 60;
+	    background: #6592CF;
+	    border-radius: 50%;
+	    box-shadow: 0 0 0 20px #060F55,
+	      200px 0 0 0px #6592CF,
+	      200px 0 0 20px #060F55,
+	      100px 100px 0 0px #6592CF,
+	      100px 100px 0 20px #060F55
+	      ;
+	  }
+	  div::after {
+	    height: 100;
+	    width: 400;
+	    position: absolute;
+	    top: 40;
+	    left: -60;
+	    background: #6592CF;
+	    content: ''
+	  }
+	</style>
+/* Battle #27 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#E38F66;}
+	  div {
+	    height: 80;
+	    width: 80;
+	    border-radius: 50%;
+	    background: #AA445F;
+	    top: 80;
+	    left: 130;
+	    border: 30px solid #F7EC7D;
+	    border-left: 30px solid transparent;
+	    border-right: 30px solid transparent;
+	    rotate: 45deg;
+	    outline: 30px solid #AA445F;
+	  }
+	</style>
+/* Battle #28 */
+	<div></div>
+	<div class="b"></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0;}
+	  body{background:#1A4341;}
+	  div, div::after {
+	    height: 50;
+	    width: 50;
+	    top: 90;
+	    left: 70;
+	    box-shadow: 70px 70px 0 0 #998235;
+	    content: '';
+	    background: #998235;
+	    border-radius: 50%;
+	  }
+	  div::after {
+	    background: #F3AC3C;
+	    top: 0;
+	    left: 210;
+	    rotate: 180deg;
+	    box-shadow: 70px -70px 0 0 #F3AC3C;
+	  }
+
+	  .b {
+	    border-radius: 50% 50% 0 0;
+	    box-shadow:-70px 0 0 0px #F3AC3C;
+	    left: 210;
+	  }
+	  .b::after {
+	    border-radius: 50% 50% 0 0;
+	    left: -140;
+	    top: 70;
+	    box-shadow: -210px 0 0 0 #998235;
+	  }
+	</style>
+/* Battle #29 */
+	<div></div>
+	<style>
+	  * {position: absolute; margin: 0;}
+	  body{background:#F3AC3C}
+	  div, div::after {
+	    width: 200;
+	    height: 200;
+	    background: #1A4341;
+	    top: 50;
+	    left: 100;
+	  }
+	  div::after {
+	    content: '';
+	    position: absolute;
+	    background: #F3AC3C;
+	    top: -100;
+	    left: -100;
+	    border-radius: 50%;
+	    box-shadow: 200px 0 0 0 #F3AC3C,
+	      0 200px 0 0 #F3AC3C,
+	      200px 200px 0 0 #F3AC3C;
+	  }
+	</style>
+/* Battle #30 */
+	<div></div>
+	<style>
+	  * {position: absolute; margin: 0;}
+	  body{background:#F7EC7D}
+	  div, div::after, div::before{
+	    height: 300;
+	    width: 400;
+	    background: #E38F66;
+	    top: 50;
+	    left: 0;
+	    content: '';
+	    position: absolute;
+	  }
+	  div::after {
+	    background: #AA445F;
+	  }
+	  div::before {
+	    background: #62306D;
+	    z-index: 1;
+	    top: 150;
+	  }
+	</style>
+/* Battle #31 */
+	<div></div>
+	<style>
+	  *, *::after{position: absolute; margin: 0; background: #AA445F;}
+	  div, div::after {
+	    width: 100px;
+	    height: 200px;
+	    border-radius: 100px 0 0 100px;
+	    top: 50;
+	    left: 75;
+	    background: #F7EC7D;
+	  }
+	  div::after {
+	    content: '';
+	    top: 0;
+	    rotate: 180deg;
+	    left: 150;
+	    background: #E38F66
+	  }
+	</style>
+/* Battle #32 */
+	<div></div>
+	<style>
+	  *, *::after, *::before{position: absolute; margin: 0; content: '';}
+	  div, div::before {
+	    background: #F3AC3C;
+	    height: 50;
+	    width: 200;
+	    rotate: 45deg;
+	    top: 125;
+	    left: 100;
+	  }
+	  div::before {
+	    top: 0;
+	    left: 0;
+	    rotate: 90deg;
+	    background: #A3A368; 
+	  }
+	  div::after {
+	    height: 50;
+	    width: 50;
+	    z-index: 3;
+	    left: 75;
+	    background: #FBE18C;
+	  }
+	</style>
+/* Battle #33 */
+	<div></div>
+	<style>
+	  * {
+	    position: absolute; margin: 0; background: #1A4341;
+	  }
+	  div {
+	    width: 75px;
+	    height: 150px;
+	    background: #998235;
+	    border-radius: 100px 0 0 100px;
+	    top: 75;
+	    left: 125;
+	  }
+	  div::before, div::after {
+	    height: 100;
+	    top: -25;
+	    left: 75;
+	    border-radius: 0 100px 0 0;
+	    aspect-ratio: 1;
+	    background: #F3AC3C;
+	    content: '';
+	    position: absolute;
+	  }
+	  div::before {
+	    height: 30;
+	    border-radius: 50%;
+	    background: #0B2429;
+	    top: 30;
+	    left: 30;
+	}
+	</style>
+/* Battle #34 */
+	<div></div>
+	<style>
+	  * {
+	     margin: 0; background: #007065;
+	  }
+	  div, div::before, div::after {
+	    content: '';
+	    position: absolute;
+	    border-left: 125px solid transparent;
+	    border-right: 125px solid transparent;
+	    border-bottom: 100px solid #00A79D;
+	    top: 150;
+	    left: 75;
+	  }
+	  div::before, div::after {
+	    top: -50;
+	    left: -125;
+	    border-bottom-color: #F5C181;
+	  }
+	  div::after {
+	    top: -100;
+	    border-bottom-color: #FFEECF;
+	</style>
+/* Battle #35 */
+	<div></div>
+	<style>
+	  * {
+	     margin: 0; background: #293462; position: absolute;
+	  }
+	  div {
+	    height: 150;
+	    width: 100;
+	    top: 50;
+	    left: 150;
+	    background: #FFF1C1;
+	    border-radius: 100px 100px 40px 40px
+	  }
+	  div::before, div::after {
+	    position: absolute;
+	    content: '';
+	    width: 30;
+	    height: 10;
+	    background: #A64942;
+	    top: 150;
+	    left: 35;
+	  }
+	  div::after {
+	    background: #FE5F55;
+	    height: 40;
+	    top: 160;
+	    border-radius: 0 0 10px 10px
+	  }
+	</style>
+/* Battle #36 */
+	<div></div>
+	<style>
+	  *, *::after {
+	     margin: 0; background: #1A4341; position: absolute;
+	  }
+	  div, div::after {
+	    content: '';
+	    width: 50;
+	    height: 200;
+	    top: 100;
+	    left: 25;
+	    border-radius: 50px 50px 0 0;
+	    background: #F3AC3C;
+	    box-shadow: 150px 0 0 0 #F3AC3C, 300px 0 0 0 #F3AC3C;
+	  }
+	  div::after {
+	    top: -100;
+	    left: 225;
+	    background: #998235;
+	    box-shadow: 150px 0 0 0 #998235;
+	    rotate: 180deg
+	  }
+	</style>
+/* Battle #37 */
+	<div></div>
+	<style>
+	  *, *::after, *::before {
+	     margin: 0; background: #6592CF; position: absolute;
+	  }
+	  div, div::before, div::after {
+	    content: '';
+	    aspect-ratio: 1;
+	    height: 250;
+	    background: #243D83;
+	    top: 25;
+	    left: 75;
+	  }
+	  div::before {
+	    height: 150;
+	    background: #6592CF;
+	    top: 50;
+	    left: 50;
+	    rotate: 15deg;
+	  }
+	  div::after {
+	    height: 75;
+	    background: #243D83;
+	    top: 88;
+	    left: 88;
+	    rotate: 30deg;
+	    z-index: 3
+	  }
+	</style>
+/* Battle #38 */
+	<div></div>
+	<style>
+	  *, *::after, *::before {
+	     margin: 0; background: #293462; position: absolute;
+	  }
+	  div {
+	    height:200;
+	    width: 200;
+	    background: #FFF1C1;
+	  }
+	  div::before, div::after {
+	    content: '';
+	    height: 100;
+	    width: 150;
+	    background: #FE5F55;
+	    top: 200;
+	    border-right: 50px solid #A64942;
+	  }
+	  div::after {
+	    top: 50;
+	    rotate: 90deg;
+	    left: 150;
+	  }
+	</style>
+/* Battle #39 */
+	<div class="c">
+	  <div class="s"></div>
+	</div>
+	<style>
+	  *, *::after, *::before {
+	     margin: 0; background: #1A4341; position: absolute;
+	  }
+	  .c {
+	    height: 250;
+	    width: 250;
+	    background: #F3AC3C;
+	    top: 25;
+	    left: 75;
+	    border-radius: 50%;
+	  }
+	  .c::before, .c::after, .s::after {
+	    content: '';
+	    width: 100%;
+	    background: #1A4341;
+	    height: 100;
+	    top: -25;
+	    box-shadow: 0 200px 0 0 #1A4341;
+	  }
+	  .c::after, .s::after {
+	    height: 20;
+	    top: 95;
+	    box-shadow: 0 40px 0 0 #1A4341;
+	  }
+	  .s {
+	    background: #998235;
+	    height: 200;
+	    width: 200;
+	    top: 25;
+	    left: 25;
+	    border-radius: 50%;
+	  }
+	  .s::after {
+	    background: #F3AC3C;
+	    top: 50;
+	    box-shadow: 0 40px 0 0 #F3AC3C, 0 80px 0 0 #F3AC3C, 0 100px 0 0 #1A4341, 0 -20px 0 0 #1A4341;
+	  }
+	</style>
+/* Battle #40 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0; background: #6592CF; content: '';}
+	  div {
+	    height: 100;
+	    width: 100;
+	    top: 50;
+	    left: 100;
+	    border: 50px solid #243D83;
+	    border-radius: 50%;
+	  }
+	  div::after, div::before {
+	    width: 50;
+	    height: 100;
+	    top: -50;
+	  }
+	  div::before {
+	    left: -50;
+	    background: #243D83
+	  }
+	</style>
+/* Battle #41 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0; background: #293462; content: '';}
+	 div, div::before {
+	   width: 50;
+	   height: 135;
+	   top: 180;
+	   left: 150;
+	   border-radius: 0 40px 0 0;
+	   box-shadow: 0 -100px 0 0 #FE5F55;
+	 }
+	  div::before {
+	    left:50;
+	    top: 0;
+	    transform: rotateY(180deg)
+	  }
+	  div::after {
+	    background: #293462;
+	    height: 30;
+	    width: 30;
+	    top: -40;
+	    left: 15;
+	    border-radius: 50%;
+	    box-shadow: 40px 0 0 0 #293462;
+	  }
+	</style>
+	<div></div>
+	<style>
+	  *, *::before, *::after {
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	    background: #293462;
+	  }
+	  div, div::before {
+	    aspect-ratio: 1;
+	    height: 200;
+	    top: 50;
+	    left: 100;
+	    border-radius: 200px 200px 100px 100px;
+	    background: #FE5F55;
+	    overflow:hidden
+	  }
+	  div::before {
+	    background: #FFF1C1;
+	    border-radius: 50%;
+	    height: 60;
+	    top: 90;
+	    left: 20;
+	    box-shadow: 100px 0 0 0 #FFF1C1, 0px -120px 0 20px #FFF1C1,
+	      100px -120px 0 20px #FFF1C1;
+	  }
+	  div::after {
+	    background: #FFF1C1;
+	    height: 10;
+	    width: 40;
+	    top: 170;
+	    left: 80;
+	    border-radius: 50px
+	  }
+	</style>
+/* Battle #42 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	    background: #293462;
+	  }
+	  div, div::before {
+	    aspect-ratio: 1;
+	    height: 200;
+	    top: 50;
+	    left: 100;
+	    border-radius: 200px 200px 100px 100px;
+	    background: #FE5F55;
+	    overflow:hidden
+	  }
+	  div::before {
+	    background: #FFF1C1;
+	    border-radius: 50%;
+	    height: 60;
+	    top: 90;
+	    left: 20;
+	    box-shadow: 100px 0 0 0 #FFF1C1, 0px -120px 0 20px #FFF1C1,
+	      100px -120px 0 20px #FFF1C1;
+	  }
+	  div::after {
+	    background: #FFF1C1;
+	    height: 10;
+	    width: 40;
+	    top: 170;
+	    left: 80;
+	    border-radius: 50px
+	  }
+	</style>
+/* Battle #43 */
+	<div></div>
+	<div class="a"></div>
+	<style>
+	  *, *::before, *::after {
+	    background: #6592CF;
+	    content: '';
+	    margin: 0;
+	    position: absolute;
+	  }
+	  div {
+	    width: 80;
+	    height: 182;
+	    top: 60;
+	    left: 105;
+	    background: #6592CF;
+	    outline: 30px solid #243D83;
+	    border-radius: 377px
+	  }
+	  div::after{
+	    left: -60;
+	    height: 300;
+	    width: 100;
+	    top: -50
+	  }
+	  .a {
+	    rotate: 180deg;
+	    left: 215
+	  }
+	</style>
+/* Battle #44 99% */
+	<div></div>
+	<style>
+	  *, *::before, *::after {
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	    background: #1A4341;
+	  }
+	  div {
+	    background: #F3AC3C;
+	    left: 120;
+	    width: 160;
+	    top: 60;
+	    height: 180;
+	  }
+	  div::after{
+	    height: 300;
+	    width: 300;
+	    border-radius: 50%;
+	    top: -60;
+	    left: -270;
+	    box-shadow: 400px 0 0 0 #1A4341;
+	  }
+	  div::before {
+	    height: 20;
+	    width: 160;
+	    top: 20;
+	    box-shadow: 0 40px #1A4341, 0 80px#1A4341, 0 120px #1A4341
+	  }
+
+	</style>
+/* Battle #45 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	    background: #1A4341; 
+	  }
+	  div {
+	    width: 90;
+	    height: 120;
+	    left: 155;
+	    top: 0;
+	    box-shadow: 0 0 0 30px #998235, 0 0 0 60px #1A4341, 0 0 0 90px #F3AC3C
+	  }
+	  div::after {
+	    width: 30;
+	    height: 300;
+	    background: #F3AC3C;
+	    left: 30;
+	  }
+	  div::before {
+	    width: 270;
+	    left: -90;
+	    top: 240;
+	    height: 30;
+	    background: #998235;
+	  }
+	</style>
+/* Battle #46 */
+	<div class="c">
+	  <div class="m"></div>
+	</div>
+	<style>
+	  *, *::before, *::after {
+	    background: #293462;
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	  }
+	  .c {
+	    width: 200;
+	    height: 200;
+	    background: #FFF1C1;
+	    border-radius: 50%;
+	    top: 50;
+	    left: 100;
+	    overflow: hidden;
+	  }
+	  .m, .m::after {
+	    background: #FE5F55;
+	    height: 200;
+	    width: 200;
+	    top: 101;
+	    left: 42;
+	    rotate: 45deg;
+	  }
+	  .m::after {
+	    top: 130;
+	    left: -30;
+	    rotate: 0deg;
+	  }
+	</style>
+/* Battle #47 */
+	<div class="l"></div>
+	<div class="c"></div>
+	<style>
+	  *, *::before, *::after {
+	    background: #1A4341;
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	  }
+	  .c {
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 50%;
+	    background: #F3AC3C;
+	    top: 100;
+	    left: 150;
+	  }
+	  .c::after {
+	    height: 30;
+	    width: 30;
+	    background: #998235;
+	    border-radius: 50%;
+	    left: 20;
+	    top: 20;
+	    box-shadow: 40px -10px 0 -10px #998235, 15px 40px 0 -5px #998235;
+	  }
+	  .l, .l::before, .l::after {
+	    background: #F3AC3C;
+	    width: 10;
+	    height: 180;
+	    border-radius: 50px;
+	    left: 195;
+	    top: 50;
+	  }
+	  .l::before, .l::after {
+	    top: 5;
+	    left: 9;
+	    rotate: 60deg
+	  }
+	  .l::after {
+	    top: 15;
+	    rotate: 120deg;
+	  }
+	</style>
+/* Battle #48 */
+	<div></div>
+	<style>
+	  *, *::after {
+	    background: #293462;
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	  }
+	 div {
+	   height: 100;
+	   top: 90;
+	   width: 200;
+	   left: 100;
+	   background: #FE5F55;
+	   border-radius: 20px;
+	   box-shadow: 0 20px 0 0 #A64942;
+	 }
+	  div::after {
+	    width: 140;
+	    left: 30;
+	    height: 40;
+	    top: 30;
+	    border-radius: 50px;
+	    background: #A64942
+	  }
+	</style>
+/* Battle #49 */
+	<div id="b"></div>
+	<div id="t"></div>
+	<style>
+	  *, *::after {
+	    background: #6592CF;
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	  }
+	#t {
+	  left: 100;
+	  top: 50;
+	  height: 0;
+	  width: 0;
+	  border-bottom: 100px solid #243D83;
+	  border-left: 100px solid transparent;
+	  border-right: 100px solid transparent;
+	}
+	#t::after {
+	  background: #EEB850;
+	  width: 100;
+	  height: 10;
+	  top: 95;
+	  left: -50;
+	  border-radius: 50px
+	}
+	#b {
+	  background: #243D83;
+	  left: 125;
+	  width: 150;
+	  height: 100;
+	  top: 150;
+	  border-radius: 0 0 10px 10px
+	}
+	#b::after {
+	  background: #EEB850;
+	  width: 50;
+	  height: 50;
+	  top: 50;
+	  left: 50;
+	  border-radius: 10px 10px 0 0
+	}
+	</style>
+/* Battle #50 99%*/
+	<div id="b">
+	</div>
+	<div id="t"></div>
+	<style>
+	  *, *::after, *::before {
+	    background: #1A4341;
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	  }
+	#b {
+	  left: 150;
+	  top: 110;
+	  height: 140;
+	  width: 100;
+	  background: #F3AC3C;
+	  border-radius: 20px;
+	  box-shadow: 30px -40px 0 -3 0px;
+	  overflow: hidden;
+	}
+	#b::before {
+	  width: 100;
+	  height: 80;
+	  background: #998235;
+	  top: 60;
+	}
+	#b::after {
+	  height: 70;
+	  width: 50;
+	  background: #998235;
+	  top: 30;
+	  border-radius: 50px;
+	  box-shadow: 50px -20px #F3AC3C;
+	}
+	#t {
+	  height: 30px;
+	  width: 50px;
+	  background: #F3AC3C;
+	  top: 90;
+	  left: 175;
+	  border-radius: 10px
+	}
+	#t::after {
+	  width: 145;
+	  left: -25;
+	  height: 20;
+	  top: -40;
+	  background: #F3AC3C;
+	  border-radius: 30px
+	}
+	#t::before {
+	  height: 40;
+	  width: 20;
+	  background: #F3AC3C;
+	  top: -30;
+	  left: 15;
+	  border-radius: 30px;
+	  box-shadow: 90px -10px #F3AC3C
+	}
+	body::after {
+	  height: 20;
+	  width: 20;
+	  background: #998235;
+	  left: 280;
+	  top: 100;
+	  border-radius: 50%;
+	  box-shadow: 0 30px #998235
+	}
+	</style>
+/* Battle #51 */
+	<div id="b"></div>
+	<div id="t"></div>
+	<style>
+	  *, *::after, *::before {
+	    background: #293462;
+	    content: '';
+	    position: absolute;
+	    margin: 0;
+	  }
+	  #b {
+	    background: #FFF1C1;
+	    left: 125;
+	    width: 150;
+	    top: 100;
+	    height: 100;
+	    border-radius: 0 0 50px 50px
+	  }
+	  #b::before {
+	    left: 20;
+	    width: 40;
+	    height: 10;
+	    top: 20;
+	    background: #FE5F55;
+	    border-radius: 10px;
+	    box-shadow: 0 20px 0 0 #FE5F55;
+	  }
+	  #b::after {
+	    height: 40;
+	    width: 40;
+	    background: #FE5F55;
+	    border-radius: 50%;
+	    top: 40;
+	    left: 90;
+	  }
+	  #t::before, #t::after {
+	    left: 65;
+	    width: 50;
+	    height: 40;
+	    top: 100;
+	    border: 10px solid #FFF1C1;
+	    border-radius: 50px 0 0 50px;
+	  }
+	  #t::after {
+	    left: 265;
+	    rotate: 180deg;
+	  }
+	</style>
+/* Battle #52 */
+	<div></div>
+	<style>
+	  *, *::after, *::before {
+	    background: #6592CF;
+	    margin: 0;
+	    position: absolute;
+	    content: '';
+	  }
+	  div::before, div::after {
+	    top: 10;
+	    left: 10;
+	    height: 20;
+	    width: 20;
+	    background: #243D83;
+	    border-radius: 50%;
+	    box-shadow: 45px 0 #243D83, 90px 0 #243D83, 165px 0 #243D83, 210px 0 #243D83, 255px 0 #243D83, 300px 0 #243D83;
+	  }
+	  div::after {
+	    border-radius: 0%;
+	    left: 15;
+	    width: 10;
+	    top: 20;
+	    height: 50;
+	  }
+	  div {
+	    background: #EEB850;
+	    height: 40;
+	    width: 40;
+	    border-radius: 50%;
+	    top: 120;
+	    left: 30;
+	    box-shadow: 90px 0 #EEB850, 45px -10px 0 10px #EEB850
+	  }
+	</style>
+/* Battle #53 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	    background: #19191A
+	  }
+	  div {
+	    left: 125;
+	    top: 50;
+	    width: 150;
+	    height: 150;
+	    background: #4F77FF;
+	    border-radius: 50%;
+	  }
+	  div::before {
+	    top: 75;
+	    background: #F9E492;
+	    height: 125;
+	    width: 75;
+	  }
+	  div::after{
+	    height: 75;
+	    width: 75;
+	    background: #9AD5FF;
+	    top: 75;
+	    border-radius: 0 0 0 100%
+	  }
+	</style>
+/* Battle #54 */
+	<div id="a"></div>
+	<div id="b"></div>
+	<style>
+	  *, *::before, *::after {
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	    background: #F9E492
+	  }
+	  div{background: #191919;}
+	  #a, #a::before, #a::after{
+	    border-radius: 50px;
+	    width: 20;
+	    left: 155;
+	    height: 45;
+	    top: 88;
+	  }
+	  #a {
+	    box-shadow: 50px 0 #191919, 25px -10px #191919;
+	  }
+	  #a::before {
+	    left: 75;
+	    background: #191919;
+	    height: 35;
+	    top: 10
+	  }
+	 #b, #b::before {
+	   background: #191919;
+	   height: 40;
+	   top: 138;
+	   width: 100;
+	   left: 150;
+	   border-radius: 0 0 10px 10px
+	 }
+	#b::before {
+	  top: 40;
+	  left: 25;
+	  width: 50;
+	  height: 45
+	}
+	#b::after {
+	  top: -34;
+	  left: 3;
+	  width: 20;
+	  height: 65;
+	  rotate: 60deg;
+	  background: #191919;
+	  border-radius: 20px;
+	  border: 5px solid #F9E492;
+	}
+	</style>
+/* Battle #55 */
+	<div></div>
+	<div id="b"></div>
+	<style>
+	  *, *::before, *::after {
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	    background: #191919
+	  }
+	 div {
+	   top: 150;
+	   left: 200;
+	 }
+	div::before, div::after {
+	  width: 100;
+	  height: 50;
+	  background: #F9E492;
+	  border-radius: 0 0 50px 50px
+	}
+	div::after {
+	  left: -100;
+	  top: -50;
+	  rotate: 180deg
+	}
+	#b {
+	  rotate: 90deg;
+	}
+	#b::before, #b::after {
+	  background: #4F77FF
+	}
+	</style>
+/* Battle #56 99% */
+/* Battle #57 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {
+	    position: absolute;
+	    margin: 0;
+	    content: '';
+	    background: #191919
+	  }
+	div {
+	  top: 95;
+	  left: 145;
+	  width: 110;
+	  height: 110;
+	  background: #4F77FF;
+	}
+	div::after {
+	  background: #4F77FF;
+	  height: 30;
+	  width: 30;
+	  left: -20;
+	  top: -20;
+	  border-radius: 50%;
+	  box-shadow: 120px 0 #4F77FF, 0 120px #4F77FF, 120px 120px #4F77FF,
+	    7.5px 7.5px 0 7.5px #F9E492,
+	    112px 7.5px 0 7.5px #F9E492,
+	    7.5px 112px 0 7.5px #F9E492,
+	    112px 112px 0 7.5px #F9E492,
+	    15px 15px 0 15px #191919,
+	    105px 15px 0 15px #191919,
+	    15px 105px 0 15px #191919,
+	    105px 105px 0 15px #191919
+	}
+	</style>
+
+/* Target 6/7/24 */
+	<div></div>
+	<style>
+	  *{position: absolute; margin: 0;}
+	  body{background:#49C85B;}
+	  div {
+	    width: 110;
+	    height: 110;
+	    border-radius: 50%;
+	    background: #085328;
+	    top: 95;
+	    left: 145;
+	    box-shadow: 0 0 0 30px #1F7D3B, 0 0 0 60px #2F9947;
+	  }
+	</style>
+/* Target 6/9/24 */
+	<div></div>
+	<style>
+	  *, *::after, *::before {
+	    position: absolute;
+	    margin: 0;
+	    background: #FFFFCD;
+	    height: 60;
+	    width: 60;
+	    content: '';
+	  }
+	  div {
+	    width: 220;
+	    height: 150;
+	    top: 150;
+	    left: 90;
+	    background: #EDAF38;
+	  }
+	  div::after {
+	    border-radius: 50%;
+	    top: -50;
+	    left: 60;
+	    border: 20px solid #EDAF38;
+	    box-shadow: 0 -75px 0 -20px #EDAF38;
+	  }
+	  div::before{
+	    left: 80;
+	    top: 45;
+	    border-radius: 50%;
+	    z-index: 3
+	  }
+	</style>
+/* Target 6/11/24 */
+	 <div>
+	   <div class="y"></div>
+	    <div>
+	     <div class="y"></div>
+	      <div>
+	       <div class="y"></div>
+	        <div>
+	         <div class="y"></div>
+	       </div>
+	     </div>
+	   </div>
+	 </div>
+	<style>
+	  body {background: #F48B26;  padding: 30 25;}
+	  *, *::after {margin: 0; position: relative;}
+	  div:not(.y) {
+	    display: flex;
+	    flex-direction: column;
+	    row-gap: 5px;
+	    padding: 5 10;
+	  }
+	  .y  {
+	    height: 50;
+	    background: #FEFF58;
+	  }
+	  .y::after {
+	    content: '';
+	    position: absolute;
+	    height: 50;
+	    width: 10;
+	    background: #F48B26;
+	    left: 200;
+	  }
+	</style>
+/* Target 6/16/24 */
+	<div></div>
+	<style>
+	  *, *::before, *::after {position: absolute; margin: 0; content: ''; background: #FFFFCD;}
+	  div {
+	    width: 280;
+	    height: 150;
+	    top: 10;
+	    left: 60;
+	    background: #EDAF38;
+	  }
+	  div::before, div::after {
+	    height: 130;
+	    width: 80;
+	    top: 10;
+	    left: 10;
+	    box-shadow: 90px 0 0 0 #FFFFCD, 180px 0 0 0 #FFFFCD;
+	}
+	  div::after {
+	    height: 120;
+	    background: #EDAF38;
+	    top: 160;
+	    box-shadow: 90px 0 0 0 #EDAF38, 180px 0 0 0 #EDAF38;
+	  }
+	</style>
+/* Target 6/18/24 */
+	<div></div>
+	<style>
+	  *, *::after {
+	    position: absolute;
+	    margin: 0;
+	    background: #BE3184
+	  }
+	  div {
+	    width: 140;
+	    height: 40;
+	    left: 130;
+	    top: 130;
+	  }
+	  div::after{
+	    background: #611B3F;
+	    content: '';
+	    width: 100;
+	    height: 200;
+	    z-index: -1;
+	    top: -30;
+	    left: -30;
+	    box-shadow: 100px -100px 0 0 #611B3F;
+	  }
+	</style>
+
+/* Target 6/19/24 */
+	<div></div>
+	<style>
+	  *, *::after {
+	    margin: 0;
+	    content: '';
+	    position: absolute;
+	  }
+	  div {
+	    width: 400;
+	    height: 125;
+	    background: #F9BF7D;
+	    box-shadow: 0px 175px #F9BF7D;
+	  }
+	  div::after {
+	    height: 100;
+	    width: 175;
+	    background: #F59426;
+	    box-shadow: 225px 0 #F59426, 0 200px #F59426, 225px 200px #F59426
+	  }
+	</style>
